@@ -1,0 +1,507 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+         <TableRow
+                
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+
+                <ImageButton
+            android:id="@+id/back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+             android:background="@drawable/back"
+         />
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+             
+
+              <TextView
+                     android:id="@+id/welcome"
+                     android:layout_width="wrap_content"
+                     android:layout_height="35dp"
+                     android:gravity="center"
+                     android:text="Employees"
+                     android:layout_weight="1"
+                     android:textColor="#4A3701"
+                     
+                     android:textSize="18sp" />
+                       
+
+     
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+             android:background="@drawable/close"
+         />
+
+      
+
+        </TableRow>
+    </LinearLayout>
+
+    
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_above="@+id/linearLayout3" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+           
+            <TableRow
+                
+                android:layout_width="match_parent"
+                android:layout_height="10dp" >
+
+            </TableRow>
+            <TableRow
+                
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+              <TextView
+            
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+             
+         />
+
+
+              <TextView
+                   
+                     android:layout_width="wrap_content"
+                     android:layout_height="35dp"
+                     android:gravity="center"
+                    
+                     android:layout_weight="1"
+                     android:textColor="#4A3701"
+                     
+                     android:textSize="18sp" />
+                       
+
+      
+
+      
+
+        </TableRow>
+             <TableRow
+                
+                android:layout_width="match_parent"
+                android:layout_height="10dp" >
+
+            </TableRow>
+            
+          <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center" >
+
+                 <TextView
+                     android:layout_width="25dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="0.25" />
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                      android:gravity="center" 
+                     android:orientation="vertical" >
+                     
+                         <ImageButton
+                     android:id="@+id/builds"
+                     android:layout_width="150dp"
+                     android:layout_height="100dp"
+                     
+                     android:background="@drawable/homebuild" />
+                         
+                            <TextView
+                     android:id="@+id/mansons"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:text="Mason"
+                     android:textColor="#4A3701"
+                     android:textSize="16sp" />
+                 </LinearLayout>
+
+              
+
+             
+
+              
+
+                 <TextView
+                     android:layout_width="25dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="0.5" />
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_gravity="center"
+                     android:gravity="center" >
+
+                     <ImageButton
+                         android:id="@+id/pains"
+                              android:layout_width="150dp"
+                     android:layout_height="100dp"
+                         android:background="@drawable/homepaint" />
+                     
+                     <TextView
+                     android:id="@+id/paints"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:text="Painters"
+                     android:textColor="#4A3701"
+                     android:textSize="16sp" />
+
+                    
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                      android:gravity="center" 
+                     android:orientation="vertical" >
+
+                 </LinearLayout>
+
+                 <TextView
+                     android:layout_width="25dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="0.25" />
+             </TableRow>
+             
+          <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="20dp" >
+            
+           </TableRow>
+             
+          <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center" >
+
+                 <TextView
+                     android:layout_width="25dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="0.25" />
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                      android:gravity="center" 
+                     android:orientation="vertical" >
+                     
+                         <ImageButton
+                     android:id="@+id/carps"
+                           android:layout_width="150dp"
+                     android:layout_height="100dp"
+                     
+                     android:background="@drawable/homecarpenter" />
+                         
+                            <TextView
+                     android:id="@+id/carpent"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:text="Carpenters"
+                     android:textColor="#4A3701"
+                     android:textSize="16sp" />
+                 </LinearLayout>
+
+              
+
+             
+
+              
+
+                 <TextView
+                     android:layout_width="25dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="0.5" />
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_gravity="center"
+                     android:gravity="center" >
+
+                     <ImageButton
+                         android:id="@+id/cleans"
+                            android:layout_width="150dp"
+                     android:layout_height="100dp"
+                         android:background="@drawable/homeresiclean" />
+                     
+                     <TextView
+                     android:id="@+id/clean"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:text="Housekeepings"
+                     android:textColor="#4A3701"
+                     android:textSize="16sp" />
+
+                    
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                      android:gravity="center" 
+                     android:orientation="vertical" >
+
+                 </LinearLayout>
+
+                 <TextView
+                     android:layout_width="25dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="0.25" />
+             </TableRow>
+             
+          <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="20dp" >
+            
+           </TableRow>
+             
+          <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center" >
+
+                 <TextView
+                     android:layout_width="25dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="0.25" />
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                      android:gravity="center" 
+                     android:orientation="vertical" >
+                     
+                         <ImageButton
+                     android:id="@+id/elecs"
+                          android:layout_width="150dp"
+                     android:layout_height="100dp"
+                     
+                     android:background="@drawable/homeelectric" />
+                         
+                            <TextView
+                     android:id="@+id/electric"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:text="Electricians"
+                     android:textColor="#4A3701"
+                     android:textSize="16sp" />
+                 </LinearLayout>
+
+              
+
+             
+
+              
+
+                 <TextView
+                     android:layout_width="25dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="0.5" />
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_gravity="center"
+                     android:gravity="center" >
+
+                     <ImageButton
+                         android:id="@+id/plums"
+                     android:layout_width="150dp"
+                     android:layout_height="100dp"
+                         android:background="@drawable/homeplumb" />
+                     
+                     <TextView
+                     android:id="@+id/plumb"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:text="Plumbers"
+                     android:textColor="#4A3701"
+                     android:textSize="16sp" />
+
+                    
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                      android:gravity="center" 
+                     android:orientation="vertical" >
+
+                 </LinearLayout>
+
+                 <TextView
+                     android:layout_width="25dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="0.25" />
+             </TableRow>
+          
+            
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="10dp" >
+            
+           </TableRow>
+           
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center" >
+
+                 <TextView
+                     android:layout_width="25dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="0.25" />
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                      android:gravity="center" 
+                     android:orientation="vertical" >
+                     
+                         <ImageButton
+                     android:id="@+id/pess"
+                          android:layout_width="150dp"
+                     android:layout_height="100dp"
+                     
+                     android:background="@drawable/pest" />
+                         
+                            <TextView
+                     android:id="@+id/pestclean"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:text="Pest Cleaner"
+                     android:textColor="#4A3701"
+                     android:textSize="16sp" />
+                 </LinearLayout>
+
+              
+
+             
+
+              
+
+                 <TextView
+                     android:layout_width="25dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="0.5" />
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_gravity="center"
+                     android:gravity="center" >
+
+                     <ImageButton
+                         android:id="@+id/agrics"
+                     android:layout_width="150dp"
+                     android:layout_height="100dp"
+                         android:background="@drawable/agri" />
+                     
+                     <TextView
+                     android:id="@+id/agricul"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:text="Agriculture"
+                     android:textColor="#4A3701"
+                     android:textSize="16sp" />
+
+                    
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                      android:gravity="center" 
+                     android:orientation="vertical" >
+
+                 </LinearLayout>
+
+                 <TextView
+                     android:layout_width="25dp"
+                     android:layout_height="30dp"
+                     android:layout_weight="0.25" />
+             </TableRow>
+            
+            
+            
+            
+            
+          
+
+          
+            
+        </LinearLayout>
+    </ScrollView>
+     <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" > 
+    
+        <TableRow
+                
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                   >
+            
+            <Button 
+		    android:id="@+id/wallets"
+		    android:layout_width="400dp"
+		    android:layout_height="50dp"
+		    android:text="Show-Wallet"
+		    android:textSize="16sp"
+		    android:textStyle="bold"
+		    android:textColor="#4A3701"
+		   
+		    
+		    />
+
+           
+
+   
+
+
+        </TableRow>
+         
+     </LinearLayout>
+   
+    
+
+</RelativeLayout>

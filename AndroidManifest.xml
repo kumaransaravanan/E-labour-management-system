@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saravana"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.saravana.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.saravana.Login"></activity>
+     <activity android:name="com.example.saravana.Register"></activity>
+     <activity android:name="com.example.saravana.Addealerview"></activity>
+     <activity android:name="com.example.saravana.Addlabours"></activity>
+     <activity android:name="com.example.saravana.Ademployeview"></activity>
+     <activity android:name="com.example.saravana.Adminprof"></activity>
+     <activity android:name="com.example.saravana.Clientprof"></activity>
+     <activity android:name="com.example.saravana.Dealerlabours"></activity>
+     <activity android:name="com.example.saravana.Dealerprof"></activity>
+     <activity android:name="com.example.saravana.Dellabview"></activity>
+     <activity android:name="com.example.saravana.Employeefieldlabours"></activity>
+     <activity android:name="com.example.saravana.Employeeprof"></activity>
+     <activity android:name="com.example.saravana.Fieldlabours"></activity>
+     <activity android:name="com.example.saravana.Viewselectlabours"></activity>
+     <activity android:name="com.example.saravana.SampleListAdapter"></activity>
+    </application>
+
+</manifest>

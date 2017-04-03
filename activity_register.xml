@@ -1,0 +1,145 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:background="#303030">
+        
+        
+        <TextView
+            android:id="@+id/textView1"
+               android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:background="#050505"
+            android:gravity="center"
+            android:textSize="30dp"
+            
+            android:text="Register" />
+        
+         <Spinner
+            android:id="@+id/role"
+            android:prompt="@string/chooserole"
+            android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/regedittext"/>
+
+    
+
+        <EditText
+            android:id="@+id/name"
+             android:layout_width="250dp"
+              android:layout_height="40dp"
+            android:ems="10"
+             android:layout_marginTop="80dp"
+            android:hint="User-name"
+            android:inputType="text" 
+            android:gravity="center"
+            android:layout_gravity="center"
+           
+            android:background="@drawable/regedittext" >
+
+            <requestFocus />
+        </EditText>
+
+     
+
+        <EditText
+            android:id="@+id/password"
+                android:layout_width="250dp"
+              android:layout_height="40dp"
+            android:ems="10"
+        
+             android:layout_marginTop="30dp"
+            android:hint="User-password"
+            android:inputType="textPassword" 
+            android:gravity="center"
+            android:layout_gravity="center"
+            
+            android:background="@drawable/regedittext" />
+        
+          <Spinner
+            android:id="@+id/exp"
+            android:prompt="@string/experience"
+           
+         
+               android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+               android:layout_gravity="center"
+            android:background="@drawable/regedittext"/>
+
+       
+
+       
+         <EditText
+            android:id="@+id/phno"
+            android:layout_width="250dp"
+              android:layout_height="40dp"
+               android:hint="Phone number"
+            android:background="@drawable/regedittext" 
+            android:inputType="phone"
+              android:gravity="center"
+                 android:layout_gravity="center"
+            android:ems="10"
+           
+               android:layout_marginTop="30dp" />
+         
+         
+         
+         
+         
+            <Spinner
+        android:id="@+id/spinner1"
+       android:layout_width="250dp"
+              android:layout_height="40dp"
+            android:ems="10"
+               android:layout_marginTop="30dp"
+             android:hint="City"
+            android:background="@drawable/regedittext" 
+              android:gravity="center"
+                 android:layout_gravity="center"
+              
+            android:inputType="textPersonName" />
+         
+
+      
+
+      
+          <Spinner
+            android:id="@+id/empfield"
+            android:prompt="@string/choosefield"
+           
+         
+               android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+               android:layout_gravity="center"
+            android:background="@drawable/regedittext"/>
+        
+
+
+        <Button
+            android:id="@+id/record"
+                android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+                  android:ems="10"
+            android:background="@drawable/registbutton"
+          
+            android:text="@string/record" />
+
+        
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.labour.MainActivity"
+    android:background="@drawable/blurhome" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textColor="#ffffff"
+            android:background="#050505"
+            android:gravity="center"
+            android:textSize="30dp"
+            
+            android:text="E-Labour" />
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper1"
+          android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:adjustViewBounds="true"
+        android:autoStart="true"
+        android:flipInterval="2000"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        android:scaleType="fitCenter" >
+ 
+
+    <ImageView
+        
+        android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+            android:layout_below="@+id/viewFlipper1"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+        android:src="@drawable/homes" />
+
+    <ImageView
+        
+        android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+            android:layout_below="@+id/viewFlipper1"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+        android:src="@drawable/homes1" />
+
+    <ImageView
+     
+           android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+            android:layout_below="@+id/viewFlipper1"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+        android:src="@drawable/painters" />
+
+    <ImageView
+        
+       android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+            android:layout_below="@+id/viewFlipper1"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+        android:src="@drawable/homes2" />
+
+    <ImageView
+       
+            android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+            android:layout_below="@+id/viewFlipper1"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+        android:src="@drawable/plumber" />
+
+
+
+    <ImageView
+        
+            android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+            android:layout_below="@+id/viewFlipper1"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+        android:src="@drawable/homeone" />
+
+    <ImageView
+        
+            android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+            android:layout_below="@+id/viewFlipper1"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+        android:src="@drawable/carpenter" />
+
+    <ImageView
+      
+            android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+            android:layout_below="@+id/viewFlipper1"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+        android:src="@drawable/builders" />
+    
+    
+     <ImageView
+      
+            android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+            android:layout_below="@+id/viewFlipper1"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+        android:src="@drawable/electricworks" />
+    <ImageView
+      
+            android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+            android:layout_below="@+id/viewFlipper1"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+        android:src="@drawable/agr" />
+    <ImageView
+      
+            android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+            android:layout_below="@+id/viewFlipper1"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+        android:src="@drawable/pestcl" />
+
+  
+
+    
+         </ViewFlipper>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="137dp"
+        android:background="@drawable/btnstart"
+        android:text="Get Started"
+        android:textColor="#ff0000" />
+
+</RelativeLayout>
